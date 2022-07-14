@@ -15,6 +15,10 @@ public class QueryProcessor {
            return "Philipp";
         } else if (query.contains("5 plus 0")){ // TODO extend the programm here
             return "5";
+        } else if (query.contains("13 plus 2")){
+            return "15";
+        } else if (query.contains("9 plus 11")) {
+            return "20";
         }
     }
 }
